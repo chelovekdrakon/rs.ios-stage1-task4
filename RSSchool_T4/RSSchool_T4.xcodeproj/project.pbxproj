@@ -20,6 +20,7 @@
 		25787FE8243F8E7B0066701D /* NeighborsTelephonesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25787FE4243F8E7B0066701D /* NeighborsTelephonesTests.m */; };
 		25787FE9243F8E7B0066701D /* FullBinaryTreesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25787FE5243F8E7B0066701D /* FullBinaryTreesTests.m */; };
 		25787FEA243F8E7B0066701D /* ArrayProductCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25787FE6243F8E7B0066701D /* ArrayProductCalculatorTests.m */; };
+		32165D5C2442327D00A855F2 /* TreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 32165D5B2442327D00A855F2 /* TreeNode.m */; };
 		BD47B5532268ED9F0060BDF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD47B5522268ED9F0060BDF3 /* AppDelegate.m */; };
 		BD47B5552268EDA10060BDF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD47B5542268EDA10060BDF3 /* Assets.xcassets */; };
 		BD47B5582268EDA10060BDF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD47B5562268EDA10060BDF3 /* LaunchScreen.storyboard */; };
@@ -56,6 +57,8 @@
 		25787FE4243F8E7B0066701D /* NeighborsTelephonesTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NeighborsTelephonesTests.m; sourceTree = "<group>"; };
 		25787FE5243F8E7B0066701D /* FullBinaryTreesTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullBinaryTreesTests.m; sourceTree = "<group>"; };
 		25787FE6243F8E7B0066701D /* ArrayProductCalculatorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayProductCalculatorTests.m; sourceTree = "<group>"; };
+		32165D5A2442327D00A855F2 /* TreeNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TreeNode.h; sourceTree = "<group>"; };
+		32165D5B2442327D00A855F2 /* TreeNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TreeNode.m; sourceTree = "<group>"; };
 		BD47B54E2268ED9F0060BDF3 /* RSSchool_T4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSSchool_T4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD47B5512268ED9F0060BDF3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BD47B5522268ED9F0060BDF3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -122,6 +125,8 @@
 				25787FD2243F8E5F0066701D /* ExampleTrees.png */,
 				25787FD3243F8E5F0066701D /* FullBinaryTrees.h */,
 				25787FD5243F8E5F0066701D /* FullBinaryTrees.m */,
+				32165D5A2442327D00A855F2 /* TreeNode.h */,
+				32165D5B2442327D00A855F2 /* TreeNode.m */,
 			);
 			path = 4;
 			sourceTree = "<group>";
@@ -286,6 +291,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32165D5C2442327D00A855F2 /* TreeNode.m in Sources */,
 				25787FE0243F8E5F0066701D /* FullBinaryTrees.m in Sources */,
 				BD47B55B2268EDA10060BDF3 /* main.m in Sources */,
 				25787FDD243F8E5F0066701D /* ArrayCalculator.m in Sources */,
